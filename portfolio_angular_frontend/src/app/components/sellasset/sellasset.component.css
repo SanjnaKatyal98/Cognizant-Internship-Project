@@ -1,0 +1,40 @@
+.container {
+    background-color: #E1EBEE;
+    height: 80%;
+}
+
+
+/* th {
+    border: 1px solid;
+    width: 150px;
+} */
+
+.middle {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.status {
+    padding-top: 5%;
+}
+
+.accent {
+    transition-duration: 0.4s;
+    border: none;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.accent:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+h3.h {
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    padding: 5px;
+}

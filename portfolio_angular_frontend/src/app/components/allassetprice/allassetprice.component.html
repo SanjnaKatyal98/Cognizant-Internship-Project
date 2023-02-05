@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="py-4">
+                <h3 class="text-center h">Daily Stock Price</h3>
+                <table class="table table-hover">
+                    <thead class="text-center">
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr *ngFor="let stock of allStock">
+                            <td>{{stock.stockName}}</td>
+                            <td>{{stock.stockValue}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="py-4">
+                <h3 class="text-center h">Daily Mutual Price</h3>
+                <table class="table table-hover">
+                    <thead class="text-center">
+                        <tr>
+
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr *ngFor="let mf of allMutualFund">
+                            <td>{{mf.mutualFundName}}</td>
+                            <td>{{mf.mutualFundValue}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- <div class="text-center">
+                <p><button routerLink="/dashboard" class="accent">back</button></p>
+            </div> -->
+        </div>
+    </div>
+</div>
